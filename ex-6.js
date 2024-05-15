@@ -2,8 +2,11 @@ let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
   // Start coding here !
+  if (bookName.includes("Beauty") === true) {
+    favoriteBooks.push(bookName);
+  } else {
+  }
 }
-
 // Example case
 addFavoriteBook("Let Me Tell You What I Mean");
 addFavoriteBook("Life Among the Terranauts");
