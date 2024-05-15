@@ -1,5 +1,5 @@
 function calculateStudentGrade(score) {
-  if (score >= 90) {
+  if (score >= 90 && score <= 100) {
     return "A";
   } else if (score >= 80) {
     return "B";
